@@ -1,0 +1,8 @@
+{
+  "_id": ObjectId,
+  "name": "John Doe",
+  "role": "Officer",
+  "email": "john@example.com",
+  "phone": "9876543210",
+  "password": "hashed"
+}
