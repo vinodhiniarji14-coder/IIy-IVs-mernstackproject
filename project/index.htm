@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Traffic Violation System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Traffic Violation System</h1>
+
+<input type="text" id="vehicle" placeholder="Vehicle Number">
+
+<select id="violation">
+<option value="">Select Violation</option>
+<option value="500">Signal Jump</option>
+<option value="300">No Helmet</option>
+<option value="1000">Over Speed</option>
+<option value="200">Wrong Parking</option>
+<option value="1500">Driving Without License</option>
+<option value="400">Triple Riding</option>
+<option value="500">No Seat Belt</option>
+<option value="1000">Using Mobile While Driving</option>
+<option value="800">Wrong Side Driving</option>
+<option value="2000">Drunk and Drive</option>
+</select>
+
+<select id="status">
+<option value="">Payment Status</option>
+<option>Paid</option>
+<option>Unpaid</option>
+</select>
+
+<button onclick="generateReceipt()">Generate Receipt</button>
+
+<div id="receipt"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
