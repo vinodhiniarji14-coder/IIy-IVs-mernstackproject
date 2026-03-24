@@ -1,0 +1,8 @@
+{
+  "_id": ObjectId,
+  "violation_id": ObjectId,
+  "amount": 500,
+  "payment_date": ISODate("2026-03-24T15:00:00Z"),
+  "mode": "Online",
+  "status": "Success"
+}
