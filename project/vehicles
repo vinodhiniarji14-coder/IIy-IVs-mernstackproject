@@ -1,0 +1,7 @@
+{
+  "_id": ObjectId,
+  "owner_id": ObjectId,
+  "registration_no": "AP09AB1234",
+  "model": "Honda City",
+  "color": "Black"
+}
